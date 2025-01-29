@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(136, 171, 142) !important;
+    background-color: rgb(175, 200, 173) !important ;
+}
+
+header{
+    background-color: rgb(238, 231, 218);
+}
+
+
+.introBtn{
+    background-color: rgba(136, 171, 142, 0.507) !important;
+}
+
+#intro{
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: rgb(242, 241, 235);
+}
+
+
+/*main*/
+
+.container{
+    border: 1px solid rgb(136, 171, 142) !important;
+}
+
+
+.mainContainer{
+    background-color: rgb(238, 231, 218) !important;
+}
+
+.codingInfo{
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: rgb(242, 241, 235);
+}
+
+h2{
+   background-color: rgba(240, 248, 255, 0.199);
+   text-decoration: underline 4px solid rgba(132, 150, 132, 0.123);
+    
+}
+
+
+.row{
+    background-color: rgba(136, 171, 142, 0.377) !important;
+    border: 1px solid rgb(136, 171, 142) !important;
+}
+
+
+.card{
+    max-width: 250px;
+    border: 1px solid rgb(136, 171, 142) !important;
+    background-color: white !important;
+}
+
+.card img{
+    height: 160px;
+    min-height: 160px;
+/*
+    border-radius: 10em 10em 0 0 ;
+    border-radius: 50%;
+    min-height: 220px;*/
+}
+
+.card-footer{
+    background-color: rgba(242, 241, 235, 0.589);
+}
+
+
+.card-title{
+
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px;
+    box-shadow:  10px 10px 10px 5px rgba(91, 121, 98, 0.274);
+    position: relative;
+    text-decoration: underline 2px solid rgba(137, 153, 122, 0.171);
+}
+
+.bi:not(:first-child){
+position: absolute;
+right: 0px;
+top: 0px;
+    
+}
+
+
+@media only screen and (max-width: 766px) {
+     .col{
+      display: flex !important;
+      justify-content: center !important;
+      
+    }
+
+  }
