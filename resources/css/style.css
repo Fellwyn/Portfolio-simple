@@ -44,7 +44,7 @@ h1{
     position: absolute;
    
     right: 15%;
-    width: 250px;
+    width: 300px;
     color: white;
 }
 
@@ -52,6 +52,21 @@ h1{
 
 
 /*main*/
+
+.tagList{
+    background-color: rebeccapurple;
+    
+
+}
+.technologyDiv {
+    margin-top: -7px !important;
+    width: 200px;
+    text-align: start;
+  
+}
+
+
+
 
 .listDiv{
     background-color: rgba(49, 95, 179, 0) !important;
@@ -67,16 +82,40 @@ h1{
 .skills{
 
     text-align: left;
-    width: 200px;
+    
 }
 
+.skills small{
+    color: rgba(70, 111, 185, 0.74) !important;
+    font-size: 13px !important;
+    position: absolute;
+    right: 0%;
+}
+
+.skills i {
+    position: absolute;
+    right: 0%;
+    top: 0;
+}
+
+
 ul li{
-   
+   position: relative;
     margin: 5px;
     list-style-type: circle;
-    background-color: rgba(72, 103, 131, 0.123);
+    background-color: rgba(72, 104, 131, 0.062);
     border-radius: 4px; 
     color:rgb(56, 113, 187);
+    width: 170px;
+}
+
+.specialLi{
+    height: 50px;
+    
+}
+
+.specialLi small{
+top: 0;
 }
 
 .container{
@@ -89,12 +128,22 @@ ul li{
 
     background-color: rgb(255, 255, 255) !important;
 
+
+
+}
+
+fogContainer{
+        background-image: url("../img/smoke.png") ;
+    z-index: 10 !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .codingInfo{
     text-align: justify;
     text-justify: inter-word;
-    background-color: rgb(242, 241, 235);
+    background-color: rgb(184, 165, 62);
 }
 
 h2{
@@ -102,6 +151,7 @@ h2{
    text-decoration: underline 4px solid rgba(132, 150, 132, 0.123);
     font-size: 50px !important;
     color: rgb(41, 84, 148) !important;
+
 }
 
 
@@ -109,37 +159,86 @@ h2{
     background-color: rgba(53, 54, 53, 0.377) !important;
 
    background-color: rgba(72, 103, 131, 0.123) !important;
-   width: 70%;
-}
+   width: 80%;
 
+
+
+    
+
+}
+.col {
+    display: flex;
+    justify-content: center;
+}
 
 .card{
     max-width: 250px;
-   
+
+    max-width: 300px;
+    max-height: 500px;
+
+    position: relative;
+
     background-color: rgb(255, 255, 255) !important;
+
+
+ 
+
+    
+
 }
 
 .card img{
     height: 160px;
     min-height: 160px;
-    padding: 1px;
+    
+
+    max-height: 280px;
+    max-width: 80%;
+
+    margin-top: 15px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+    
 /*
     border-radius: 10em 10em 0 0 ;
     border-radius: 50%;
     min-height: 220px;*/
+
+    border-radius: 6px !important;
+    border: 2px solid rgba(138, 138, 136, 0.048);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
+
+
 
 .card-footer{
-    background-color: rgba(242, 241, 235, 0.589);
+
+    
+    
+    background-color: rgb(252, 252, 252) !important;
+    
 }
 
+.card-footer a{
+    color: rgb(101, 102, 105);
+}
+.card-footer a:visited{
+    color: rgb(113, 117, 131);
+}
 
 .card-title{
 
     border-radius: 4px;
     text-align: center;
     padding: 8px;
-    box-shadow:  10px 10px 10px 5px rgba(8, 52, 119, 0.068);
+    box-shadow:  1px 1px 10px 0px rgba(8, 52, 119, 0.068);
     position: relative;
     text-decoration: underline 2px solid rgba(137, 153, 122, 0.171);
 }
@@ -150,6 +249,14 @@ right: 0px;
 top: 0px;
     
 }
+
+.rowName{
+    color: rgba(23, 43, 95, 0.644);
+    font-weight: 600;
+}
+
+
+
 
 
 @media only screen and (max-width: 766px) {

@@ -20,6 +20,9 @@
 
   <body>
 
+  <div class="fogContainer">   
+  </div>
+
     <div class="  rounded mainContainer  m-2 pb-2 ">
 
 
@@ -37,7 +40,7 @@
                 I'm Fellwyn. I started my coding journey -23 at Codecademy and by doing my own work. <br>
                 In summer -24 started studying at official school.
                 <br><br>
-                I am into basic web design and games.
+                My interests include building basic websites, interactive experiences and games.
                 Before coding, I have been working in many fields and accidentally on manager positions too.
                 </p> 
       
@@ -70,36 +73,71 @@
     <div class="text-center p-4 ">
     <h2 class="w-25 mx-auto rounded">Technologies</h2>
  
-    <p class="text-center w-50 mx-auto">I'm certified in several programming languages and have experience with many others. While some aren't part of my daily toolkit, I’m quick to relearn and apply them when needed.</p>
-    <div class="listDiv d-flex justify-content-around rounded p-4">
+
+    <div class="text-center ">
+        <p class="text-center w-50 mx-auto">Certified in several programming languages, with hands-on experience gained through both formal education and self-directed projects. <br>
+        <div class="technologyDiv mx-auto">
+            <span><i class="bi bi-bookmark-star"></i>Recently used / favorite</span> <br>
+            <span><i class="bi bi-bookmark-check"></i>Familiar / needs refresh</span><br>
+            <span><i class="bi bi-bookmark"></i>Explored</span>
+        </div>
+        </p>
+
+        <!--div class="tagList w-25 mx-auto">
+        <p><i class="bi bi-bookmark-star"></i></p>
+        <p><i class="bi bi-bookmark-check"></i></p>
+        <p><i class="bi bi-bookmark"></i></p>
+        </div-->
+
+        
+    </div>
+
+
+
+    <div class="listDiv d-flex justify-content-around rounded p-4 ">
 
 
         <div class="skills">
             <h3>Certificates</h3>    
             <ul >
-                <li>C#</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>HTML, CSS, Bootstrap</li>
+                <li>C# <small>(Codecademy)</small></li>
+                <li>Javascript <small>(Codecademy)</small></li>
+                <li>React <small>(Codecademy)</small></li>
+                <li class="specialLi">HTML, CSS, <br> Bootstrap <small>(Codecademy)</small></li>
+                <li>SQL <small>(Codecademy)</small></li>
             </ul>
         </div>    
 
 
 
         <div class="skills">
-            <h3>Skills</h3>    
+            <h3>Skills</h3> 
+
+            
+            <div class="col">
+                            <ul>
+                <li>Javascript <i class="bi bi-bookmark-star"></i></li>
+                <li>HTML, CSS, Bootstrap <i class="bi bi-bookmark-star"></i></li>
+                <li>Unreal Engine Blueprints <i class="bi bi-bookmark-star"></i></li>
+                <li>React<i class="bi bi-bookmark-check"></i></li>
+
+            </ul>                
+
+            
             <ul>
-                <li>C#</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>HTML, CSS, Bootstrap</li>
-                <li>SQL</li>
-                <li>Unreal Engine Blueprints</li>
-                <li>Python</li>
-            </ul>
+                <li>C# <i class="bi bi-bookmark-check"></i></li>
+                <li>SQL <i class="bi bi-bookmark"></i></li>
+                <li>Python <i class="bi bi-bookmark"></i></li>
+                <li>ASP.NET(MVC, EF) <i class="bi bi-bookmark"></i></li>
+            </ul>                
+            </div>   
+            
             
         </div>    
         
+
+
+
 
         <div class="skills">
             <h3>Tools</h3>    
@@ -132,7 +170,7 @@
 
                 <p class="text-center w-50 mx-auto">Highlights of my coding projects. Projects marked with <i class="bi bi-phone"></i> are mobile-friendly. </p>
 
-         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-5  m-5 rounded pb-4 mx-auto">
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-5  m-5 rounded pb-4 mx-auto ">
 
 
 
@@ -141,11 +179,12 @@
                     <a href="https://www.kitakaze.art/" target="_blank"><img src="./resources/img/kita.png" class="card-img-top" alt="game page"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">Rei Kitakaze portfolio<small><i class="bi bi-phone"></i></small></h5>
-                                <p class="card-text">Published June/2025</p>
+                                <p class="card-text">A responsive multi-page music portfolio built for a composer. Published June/2025.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: Bootstrap, JS
-                                Status: will be updated
+                                <span class="rowName">Tech:</span> Bootstrap, JS <br>
+                                <span class="rowName">Status:</span> will be updated <br>
+                                <span class="rowName">Type:</span> Client project
                             </p>
                             <div class="card-footer">
                                 <a href="">&nbsp</a>
@@ -175,13 +214,14 @@
 
                 <div class="col">
                     <div class="card h-100 w-100">
-                    <a href="https://fellwyn.github.io/Game-Company/" target="_blank"><img src="./resources/img/game_company2.png" class="card-img-top " alt="game page"/></a>
+                    <a href="https://fellwyn.github.io/Game-Company/" target="_blank"><img src="./resources/img/game_company2.png" class="card-img-top" alt="game page"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">EG games <small><i class="bi bi-phone"></i></small></h5>
-                                <p class="card-text">Imaginary game company landing page</p>
+                                <p class="card-text">A responsive multi-page site for imaginary game company.</p>
                             </div>
                                 <p class="card-text mx-3">
-                                Language: Bootstrap
+                                <span class="rowName">Tech:</span> Bootstrap <br>
+                                <span class="rowName">Type:</span> school project
                                 </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/Game-Company" target="_blank">Github</a>
@@ -196,12 +236,14 @@
                     <a href="https://oraclewonders.com/" target="_blank"><img src="./resources/img/the_oracle.png" class="card-img-top" alt="game page"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">The Oracle</h5>
-                                <p class="card-text">My first bigger project when I started coding! 
+                                <p class="card-text">My first bigger project when I started coding. The user can ask questions
+                                and the Oracle gives answers based on your words. The page has few story games included. 
                                  </p>
                             </div>
                              <p class="card-text mx-3">
-                                Language: HTML, CSS, JS
-                                Status: will be updated
+                                <span class="rowName">Tech:</span> HTML, CSS, JS <br>
+                                <span class="rowName">Status:</span> will be updated with new logic and Bootstrap <br>
+                                <span class="rowName"> Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="">&nbsp</a>
@@ -217,10 +259,11 @@
                     <a href="https://fellwyn.github.io/Holidays/" target="_blank"><img src="./resources/img/date.png" class="card-img-top" alt="game page"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">Holidays calculator <small><i class="bi bi-phone"></i></small></h5>
-                                <p class="card-text">Check how many days to next holiday</p>
+                                <p class="card-text">Check how many days to the next holiday.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: Bootstrap, JS
+                                <span class="rowName">Tech:</span> Bootstrap, JS <br>
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/Holidays" target="_blank">Github</a>
@@ -235,10 +278,11 @@
                     <a href="https://fellwyn.github.io/To-Do-List/" target="_blank"><img src="./resources/img/to_do.png" class="card-img-top" alt="game page"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">To do List</h5>
-                                <p class="card-text">To do list, where you can add chores and track time</p>
+                                <p class="card-text">To do list. Add chores and track your time.</p>
                             </div>
                              <p class="card-text mx-3">
-                                Language: React
+                                <span class="rowName">Tech:</span> React <br>
+                                <span class="rowName">Type:</span> school project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/To-Do-List" target="_blank">Github</a>
@@ -257,10 +301,11 @@
                     <a href="https://fellwyn.github.io/Nature-Adventures/" target="_blank"><img src="./resources/img/adventures.png" class="card-img-top" alt="nature"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">Nature Adventures <small><i class="bi bi-phone"></i></small></h5>
-                                <p class="card-text">Imaginary adventure company</p>
+                                <p class="card-text">Imaginary adventure company langing page, part of school project.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: HTML, CSS
+                                <span class="rowName">Tech:</span> HTML, CSS <br>
+                                <span class="rowName">Type:</span> school project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/Nature-Adventures" target="_blank">Github</a>
@@ -279,7 +324,7 @@
 
             
 
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4  m-5 pb-4 rounded mx-auto">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-4  m-5 pb-4 rounded mx-auto">
 
 
         
@@ -291,10 +336,11 @@
                                 <p class="card-text">My first solo game made with Unreal Engine 5. I made the story, game design, coding, testing, UI and some of the music. This was made in 2-3 months.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: Unreal Engine Blueprints
+                                <span class="rowName">Tech:</span> Unreal Engine Blueprints <br>
+                                <span class="rowName">Type:</span> personal / part of game course
                             </p>
                             <div class="card-footer">
-                                <a href="https://fellwyn.itch.io/ukonvaara" target="_blank">Itchio</a>
+                                <a href="https://fellwyn.itch.io/ukonvaara" target="_blank">Itch</a>
                             </div>
                     </div>  <!--card end-->
                 </div> <!--col end-->
@@ -319,7 +365,9 @@
                                 <p class="card-text">This project was about learning Unity using few tutorials.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: C# (Unity)
+                                <span class="rowName">Tech:</span> C# (Unity) <br>
+                                <span class="rowName">Type:</span> personal / school project
+                                
                             </p>
                             <div class="card-footer">
                                 <a href="https://fellwyn.itch.io/the-fruit-collector" target="_blank">Itch</a>
@@ -335,11 +383,12 @@
                     <a href="https://fellwyn.github.io/The-Mystery/" target="_blank"><img src="./resources/img/mystery.png" class="card-img-top" alt="mystery game"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">The Mystery</h5>
-                                <p class="card-text"> Puzzle solving game</p>
+                                <p class="card-text"> Puzzle solving game.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: HTML, CSS, JS
-                                Status: Will be updated 
+                                <span class="rowName">Tech:</span> HTML, CSS, JS <br>
+                                <span class="rowName">Status:</span> Will be updated with new logic and Bootstrap <br>
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/The-Mystery" target="_blank">Github</a>
@@ -355,11 +404,13 @@
                     <a href="https://fellwyn.github.io/Going-To-The-Store/" target="_blank"><img src="./resources/img/goods2.png" class="card-img-top " alt="mystery game"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">Going to the store</h5>
-                                <p class="card-text">Basic web coding languages.
-                                One of my first games to learn JS</p>
+                                <p class="card-text">
+                                One of my first games to learn JS: how to create elements in JS instead of HTML, game logic and timer</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: HTML, CSS, JS
+                                <span class="rowName">Tech:</span> HTML, CSS, JS <br>
+                                <span class="rowName">Status:</span> will be updated <br>
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/Going-To-The-Store" target="_blank">Github</a>
@@ -373,11 +424,12 @@
                     <a href="https://fellwyn.github.io/Water-me/" target="_blank"><img src="./resources/img/waterme.png" class="card-img-top " alt="mystery game"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">Water me</h5>
-                                <p class="card-text">Basic web coding languages.
-                                One of my first games to learn JS</p>
+                                <p class="card-text">
+                                One of my first games to learn JS: how to drag and drop items, how to change images and game logic.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: HTML, CSS, JS
+                                <span class="rowName">Tech:</span> HTML, CSS, JS <br>
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/Water-me" target="_blank">Github</a>
@@ -392,11 +444,12 @@
                     <a href="https://fellwyn.github.io/The-Sheep-Game/" target="_blank"><img src="./resources/img/sheep.png" class="card-img-top " alt="mystery game"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">The Sheep Game</h5>
-                                <p class="card-text">Basic web coding languages.
-                                One of my first games</p>
+                                <p class="card-text">
+                                One of my first games to learn JS and Kaplay.js.</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: HTML, Kaboom.js/Kaplay.js
+                                <span class="rowName">Tech:</span> HTML, Kaplay.js <br>
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/The-Sheep-Game" target="_blank">Github</a>
@@ -410,17 +463,20 @@
 
 
         <h2 class="text-center mt-5 w-25 mx-auto rounded">Other</h2>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-5  m-5 pb-4 rounded mx-auto">
+        <p class="text-center w-50 mx-auto">Other code related projects and experiments. </p>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-5  m-5 pb-4 rounded mx-auto">
 
                   <div class="col">
                     <div class="card h-100 w-100">
                     <a href="https://github.com/Fellwyn/Movie-Dataset" target="_blank"><img src="./resources/img/movie.png" class="card-img-top " alt="mystery game"/></a>
                             <div class="card-body">
                                 <h5 class="card-title">Movie dataset</h5>
-                                <p class="card-text">Small SQL dataset with many to many relationship</p>
+                                <p class="card-text">Small SQL dataset with many to many relationship.</p>
                             </div>
                              <p class="card-text mx-3">
-                                Language: SQL
+                                <span class="rowName">Tech:</span> SQL <br>
+                                <span class="rowName">Type:</span> school project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/Movie-Dataset" target="_blank">Github</a>
@@ -428,6 +484,32 @@
                     </div>  <!--card end-->
                 </div> <!--col end-->
             <!-- one card end-->
+
+
+
+                  <div class="col">
+                    <div class="card h-100 w-100">
+                    <a href="https://github.com/Fellwyn/Pizza-Delivery" target="_blank"><img src="./resources/img/pizza1.png" class="card-img-top " alt="mystery game"/></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza Delivery</h5>
+                                <p class="card-text">Imaginary food delivery site, where user can make orders and get final price.</p>
+                            </div>
+                             <p class="card-text mx-3">
+                                <span class="rowName">Tech:</span> ASP.NET <br>
+                                <span class="rowName">Type:</span> school project
+                            </p>
+                            <div class="card-footer">
+                                <a href="https://github.com/Fellwyn/Pizza-Delivery" target="_blank">Github</a>
+                            </div>
+                    </div>  <!--card end-->
+                </div> <!--col end-->
+            <!-- one card end-->
+
+
+
+
+
+
 
 
                 <div class="col">
@@ -438,7 +520,8 @@
                                 <p class="card-text"> This project is using some APIS for the pokémon names, images and cries</p>
                             </div>
                              <p class="card-text mx-3">
-                                Language: React
+                                <span class="rowName">Tech:</span> React <br>
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="https://github.com/Fellwyn/Pokemon-Search" target="_blank">Github</a>
@@ -457,8 +540,9 @@
                                 <p class="card-text">Useful bot reminds about breaks</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: Discord.js <br>
-                                Status: Will be updated 
+                                <span class="rowName">Tech:</span> Discord.js <br>
+                                <span class="rowName">Status:</span> Will be updated 
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="" target="_blank"> &nbsp</a>
@@ -476,7 +560,8 @@
                                 <p class="card-text">I have made some small coded music samples with Sonic Pi</p>
                             </div>
                             <p class="card-text mx-3">
-                                Language: Ruby <br>
+                                <span class="rowName">Tech:</span> Ruby <br>
+                                <span class="rowName">Type:</span> personal project
                             </p>
                             <div class="card-footer">
                                 <a href="" target="_blank"> &nbsp</a>
